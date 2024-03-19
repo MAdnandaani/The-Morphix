@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: blue;
+            height: 70px;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            padding: 20px 100px;
+        }
+        .logo{
+            color: #fff;
+            font-size: 2rem;
+            text-decoration: none;
+        }
+
+        .logo{
+            border: 2px solid #fff;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding: 5px 9px;
+        }
+        .nav-bar a{
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+}
+        .nav-bar a::before{
+    content: '';
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: .4s ease-out;
+}
+        .nav-bar a:hover::before{
+            width: 100%;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+   <a href="" class="logo"> Color <span> Splash</span></a>
+   <nav class="nav-bar">
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Services</a>
+    <a href="">Contact</a>
+   </nav>
+    </header>
+</body>
+</html>
