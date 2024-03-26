@@ -1,0 +1,26 @@
+h1{
+    color: red;
+    text-align: center;
+    background-color: blue;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 600px;
+  width: 600px;
+  background-color: red;
+}
+
+#second{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
