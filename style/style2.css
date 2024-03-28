@@ -1,0 +1,27 @@
+h1{
+    -webkit-background-clip: text;
+    background-clip:text ;
+    background-image: url(susan-wilkinson-devZZksOXu4-unsplash.jpg);
+    text-align: center;
+    font-size: 200px;
+    color: transparent;
+}
+
+h1::selection{
+    color: #fff;
+    background-color: red;
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+section{
+    height: 100vh;
+     background-size: cover;
+     background-position: center;
+    background-image: url(fadhil-abhimantra-4yRRv3hTW0k-unsplash.jpg);
+}
