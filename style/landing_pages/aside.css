@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.aside{
+    width: 270px;
+    height: 100%;
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.aside .logo{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.aside .nav
+{
+margin-top: 50px;
+}
+.aside .nav li {
+    margin-bottom: 10px;
+}
+.aside .nav li a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #101010;
+    border-bottom: 1px solid rgb(189, 182, 182);
+    padding: 5px 15px;
+}
+
+.aside .nav i{
+    margin-right: 15px;
+}
+.aside .logo a{
+    color: #101010;
+    letter-spacing: 5px;
+}
+
+.aside .nav li a.active{
+    color: red;
+}
